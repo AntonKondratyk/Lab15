@@ -1,0 +1,109 @@
+﻿<Window x:Class="Lab15.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Lab15"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <FlowDocumentPageViewer>
+            <FlowDocument>
+                <Paragraph>
+                    Горный велосипед
+                    <Hyperlink NavigateUri="https://trial-sport.ru/goods/51516/2032830.html">GT ZASKAR LT AL ELITE</Hyperlink> 
+                </Paragraph>
+                <Paragraph>
+                    Новый король среди хардтейлов современного трейлрайдинга, взошедший на трон 
+                с девизом: «я ниже, у меня длиннее (база и вилка) и я агрессивнее». 
+                GT Zaskar LT – это дитя нового времени, взявший скорость точность управления 
+                ближайшего родственника, переднюю подвеску и мягкие, почти кошачьи повадки 
+                лучшего друга трейлов Sensor, и не забывший прихватить взрывной, но позитивный 
+                характер La Bomba, проживающей по соседству. Этот коктейль понравится всем, 
+                кто любит поиграть с самыми жесткими траекториями и не прочь окунуться в гравити, 
+                но не отказывает себе в удовольствии поработать с педалями во время подъемов. 
+                Как и полагается царственной особе, Его Величество представлено о двух головах: 
+                версии Expert и Elite отличаются между собой комплектацией, чтобы радовать 
+                максимальное количество своих подданных.
+                </Paragraph>
+                <List MarkerStyle="Box">
+                    <ListItem>
+                        <Paragraph>
+                            G26251M10	M	dark blue
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            G26251M10	L	dark blue
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            G26251M10	XL	dark blue
+                        </Paragraph>
+                    </ListItem>
+                </List>
+                <Table>
+                    <Table.Columns>
+                        <TableColumn/>
+                        <TableColumn/>
+                        <TableColumn/>
+                    </Table.Columns>
+                    <TableRowGroup>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Наличие
+                                </Paragraph>
+                            </TableCell>
+                                                    <TableCell>
+                                <Paragraph>
+Москва
+                                </Paragraph>
+                            </TableCell>
+                                                    <TableCell>
+                                <Paragraph>
+                                    СПБ
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Кол-во
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    2
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    4
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Размер
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    М
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    XS
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                    </TableRowGroup>
+                </Table>
+            </FlowDocument>
+        </FlowDocumentPageViewer>
+    </Grid>
+</Window>
